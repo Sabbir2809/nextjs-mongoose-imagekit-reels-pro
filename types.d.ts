@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 import { Connection } from "mongoose";
 
 declare global {
@@ -6,5 +7,4 @@ declare global {
     promise: Promise<Connection> | null;
   };
 }
-
 export {};
